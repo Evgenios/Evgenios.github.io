@@ -1,4 +1,4 @@
-# Evgenios.github.io
+# evgenios.github.io
 My Personal Website with my CV and 
 Portofolio
 
