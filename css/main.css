@@ -73,16 +73,16 @@ nav a:hover{
 	background-color: #E9E9E9;
 }
 
-.about{
+.about {
 	padding-left: 15px;
 }
 
-.about a{
+.about a {
 	color:#0E1863;
 	text-decoration: none;
 }
 
-.about a:hover{
+.about a:hover {
 	color:#0E1863;
 	text-decoration: none;
 	border-bottom: 1px solid #0E1863;
@@ -90,14 +90,20 @@ nav a:hover{
 
 
 .social-icons {
+	margin-top: 70px;
 	text-align: center;
-	margin-top: 100px;
 }
 
-.social-links li{
+.social-links li {
+	overflow: auto;
+	padding-right: 10px;
 	display: inline;
-	margin: 0 50px;
 }
-.social-links a{
+
+.social-links a {
 	color: #0E1863;
+}
+
+.social-links a:hover {
+	color: #5062E9;
 }
