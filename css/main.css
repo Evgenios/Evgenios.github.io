@@ -52,10 +52,14 @@ nav a:hover{
 }
 
 .project {
-	padding:0 15px 15px 15px;
+	padding:15px;
 	text-decoration: none;
 	display: block;
 	border-radius: 5px;
+}
+
+.project + .project {
+    margin-top: 20px;
 }
 
 .project img {
@@ -66,7 +70,6 @@ nav a:hover{
 
 .project h4 {
 	margin-bottom: 5px;
-
 }
 
 .project:hover {
