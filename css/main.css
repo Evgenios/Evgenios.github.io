@@ -81,16 +81,36 @@ nav a:hover{
 }
 
 .about a {
+	position: relative;
 	color:#0E1863;
 	text-decoration: none;
 }
 
 .about a:hover {
 	color:#0E1863;
-	text-decoration: none;
-	border-bottom: 1px solid #0E1863;
 }
 
+.about a:before{
+	content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0E1863;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+
+.about a:hover:before{
+	visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
 
 .social-icons {
 	margin-top: 70px;
@@ -109,4 +129,8 @@ nav a:hover{
 
 .social-links a:hover {
 	color: #5062E9;
+}
+
+.social-icons p {
+	text-align: center;
 }
