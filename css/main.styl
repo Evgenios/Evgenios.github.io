@@ -1,0 +1,111 @@
+.container
+  max-width 800px
+  padding-left 25px
+
+nav
+  padding-left 15px
+  max-width 800px
+
+  a:hover
+    color #757687
+    border-bottom 3px solid #757687
+
+h2,h4
+  color #1F1F1F
+
+p
+  color #757687
+
+#name a
+  color #1F1F1F
+  text-decoration none
+
+#name a:hover
+    color #1F1F1F
+    border-bottom 3px solid #1F1F1F
+    text-decoration none
+
+.links a
+  color #757687
+  text-decoration none
+
+.links
+  ul
+    list-style-type none
+    margin 10 0 40 0px
+    padding-bottom 8px
+
+  li
+    display inline
+    margin-right 15px
+    margin-left 2px
+    font-size 20px
+
+.project
+  padding 15px
+  text-decoration none
+  display block
+  border-radius 5px
+
+  img
+    border 1px solid
+    border-radius 5px
+    color #DDD
+
+  h4
+    margin-bottom 5px
+
+.project + .project
+    margin-top 20px
+
+.project:hover
+  background-color #E9E9E9
+
+.about
+  padding-left 15px
+
+  a
+    position relative
+    color #0E1863
+    text-decoration none
+
+  a:hover
+    color #0E1863
+
+  a:before
+    content ""
+    position absolute
+    width 100%
+    height 2px
+    bottom 0
+    left 0
+    background-color #0E1863
+    visibility hidden
+    -webkit-transform scaleX(0)
+    transform scaleX(0)
+    -webkit-transition all 0.3s ease-in-out 0s
+    transition all 0.3s ease-in-out 0s
+
+  a:hover:before
+    visibility visible
+    -webkit-transform scaleX(1)
+    transform scaleX(1)
+
+.social-icons
+  margin-top 70px
+  text-align center
+
+.social-links
+  li
+    overflow auto
+    padding-right 10px
+    display inline
+
+  a
+    color #0E1863
+
+  a:hover
+    color #5062E9
+
+.social-icons p
+  text-align center
